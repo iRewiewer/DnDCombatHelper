@@ -8,6 +8,8 @@ namespace DnDCombatHelperPC
 			ApplicationConfiguration.Initialize();
 			MainView mainView = new MainView();
 			Application.Run(mainView);
+			MainView test = new MainView();
+			Application.Run(test);
 		}
 	}
 }
